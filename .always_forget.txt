@@ -1,0 +1,18 @@
+# .always_forget.txt
+#
+# Personal UNIX Cheat Sheet
+#
+# Nick Weber <webenic@umich.edu>
+
+# AFS (Andrew File System)
+kdestroy                                                          # delete Kerberos ticket
+unlog                                                             # delete AFS tokens
+kinit webenic                                                     # get Kerberos ticket for umic
+cd /afs/webenic/user/w/e/webenic                                  # change directory to UM desktop (note the forward slash)
+
+# SSH (Secure SHell)
+ssh webenic@login-course.engin.umich.edu                          # Log onto UM desktop over network
+
+# SCP (Secure Copy Protocol)
+scp -r [local directory/source] [destination directory]           # Transfer files between sites over the internet
+  - For UM file transfer: scp [local path] webenic@login.engin.umich.edu:/home/webenic/[destination path]
