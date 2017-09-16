@@ -1,0 +1,3 @@
+# AFS
+kdestroy                                        # delete Kerberos ticket
+unlog                                           # delete AFS tokens
