@@ -21,3 +21,4 @@ scp -r [local directory/source] [destination directory]           # Transfer fil
 asciiquarium                                                      # fish tank full of ascii fish
 curl http://wttr.in/[location]                                    # ascii weather 
 figlet [string]                                                   # bubble text of given string
+rig                                                               # generate a fake identity
