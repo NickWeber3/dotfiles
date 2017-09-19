@@ -22,3 +22,4 @@ asciiquarium                                                      # fish tank fu
 curl http://wttr.in/[location]                                    # ascii weather 
 figlet [string]                                                   # bubble text of given string
 rig                                                               # generate a fake identity
+fortune                                                           # print a random fortune
