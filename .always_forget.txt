@@ -4,6 +4,7 @@
 #
 # Nick Weber <webenic@umich.edu>
 
+# Git 
 
 # Homebrew (OSX Package Manager)
 brew update                             # update package index
