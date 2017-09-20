@@ -4,6 +4,11 @@
 #
 # Nick Weber <webenic@umich.edu>
 
+
+# Homebrew (OSX Package Manager)
+brew update                             # update package index
+brew upgrade                            # upgrade installed packages
+
 # AFS (Andrew File System)
 kdestroy                                                          # delete Kerberos ticket
 unlog                                                             # delete AFS tokens
