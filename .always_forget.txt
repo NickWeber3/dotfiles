@@ -23,3 +23,5 @@ curl http://wttr.in/[location]                                    # ascii weathe
 figlet [string]                                                   # bubble text of given string
 rig                                                               # generate a fake identity
 fortune                                                           # print a random fortune
+cowthink [string]                                                 # ascii art of cow w/ thought bubble
+cowsay [string]                                                   # ascii art of cow w/ speech bubble
