@@ -15,20 +15,20 @@ brew update                                                       # update packa
 brew upgrade                                                      # upgrade installed packages
 
 # AFS (Andrew File System)
-kdestroy                                                            # delete Kerberos ticket
-unlog                                                               # delete AFS tokens
-kinit webenic                                                       # get Kerberos ticket for umic
-cd /afs/webenic/user/w/e/webenic                                    # change directory to UM desktop (note the forward slash)
+kdestroy                                                          # delete Kerberos ticket
+unlog                                                             # delete AFS tokens
+kinit webenic                                                     # get Kerberos ticket for umic
+cd /afs/webenic/user/w/e/webenic                                  # change directory to UM desktop (note the forward slash)
 
 # SSH (Secure SHell)
-ssh webenic@login-course.engin.umich.edu                            # Log onto UM desktop over network
+ssh webenic@login-course.engin.umich.edu                          # Log onto UM desktop over network
 
 # SCP (Secure Copy Protocol)
-scp -r [local directory/source] [destination directory]             # Transfer files between sites over the internet
+scp -r [local directory/source] [destination directory]           # Transfer files between sites over the internet
     - For UM file transfer: scp [local path] webenic@login.engin.umich.edu:/home/webenic/[destination path]
 
 # Web Utilities
-openssl s_client -connect [website]:443                             # View client/server certificate data
+openssl s_client -connect [website]:443                           # View client/server certificate data
 
 # Command Line Fun
 asciiquarium                                                                # fish tank full of ascii fish
@@ -39,3 +39,7 @@ fortune                                                                     # pr
 cowthink [string]                                                           # ascii art of cow w/ thought bubble
 cowsay [string]                                                             # ascii art of cow w/ speech bubble
 curl -s http://artscene.textfiles.com/vt100/movglobe.vt | pv -q -L 9600     # ascii spinning globe
+aafire                                                                      # make a bonfire
+ruby -e 'C=`stty size`.scan(/\d+/)[1].to_i;S=["2743".to_i(16)].pack("U*");a # make it snow -|
+={};puts "\033[2J";loop{a[rand(C)]=0;a.each{|x,o|;a[x]+=1;print "\033[#{o}; <---------------|           
+#{x}H \033[#{a[x]};#{x}H#{S} \033[0;0H"};$stdout.flush;sleep 0.1}'          <---------------|  
