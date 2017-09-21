@@ -4,11 +4,14 @@
 #
 # Nick Weber <webenic@umich.edu>
 
+# C++ Tools
+g++ [file to compile] -o [executable]                             # Compile C++ program (-o: write output to, gcc if C)
+
 # Git 
 
 # Homebrew (OSX Package Manager)
-brew update                             # update package index
-brew upgrade                            # upgrade installed packages
+brew update                                                       # update package index
+brew upgrade                                                      # upgrade installed packages
 
 # AFS (Andrew File System)
 kdestroy                                                          # delete Kerberos ticket
