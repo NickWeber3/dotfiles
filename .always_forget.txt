@@ -31,6 +31,8 @@ scp -r [local directory/source] [destination directory]           # Transfer fil
 openssl s_client -connect [website]:443                           # View client/server certificate data
 
 # Command Line Fun
+telnet towel.blinkenlights.nl                                               # Ascii Star Wars ('C-]' to quit)
+cmatrix                                                                     # Matrix-style ascii trickle-down
 asciiquarium                                                                # fish tank full of ascii fish
 curl http://wttr.in/[location]                                              # ascii weather 
 figlet [string]                                                             # bubble text of given string
@@ -39,7 +41,9 @@ fortune                                                                     # pr
 cowthink [string]                                                           # ascii art of cow w/ thought bubble
 cowsay [string]                                                             # ascii art of cow w/ speech bubble
 curl -s http://artscene.textfiles.com/vt100/movglobe.vt | pv -q -L 9600     # ascii spinning globe
+asciiview [image] -driver curses                                         # view ascii-version of an image
 aafire                                                                      # make a bonfire
-ruby -e 'C=`stty size`.scan(/\d+/)[1].to_i;S=["2743".to_i(16)].pack("U*");a # make it snow -|
-={};puts "\033[2J";loop{a[rand(C)]=0;a.each{|x,o|;a[x]+=1;print "\033[#{o}; <---------------|           
-#{x}H \033[#{a[x]};#{x}H#{S} \033[0;0H"};$stdout.flush;sleep 0.1}'          <---------------|  
+ruby -e 'C=`stty size`.scan(/\d+/)[1].to_i;S=["2743".to_i(16)].pack("U*     # make it snow -|
+");a ={};puts "\033[2J";loop{a[rand(C)]=0;a.each{|x,o|;a[x]+=1;print "\0    <---------------|
+33[#{o}; #{x}H \033[#{a[x]};#{x}H#{S} \033[0;0H"};$stdout.flush;sleep 0.1}' <---------------|   
+
