@@ -6,6 +6,7 @@
 
 # C++ Tools
 g++ [file to compile] -o [executable]                             # Compile C++ program (-o: write output to, gcc if C)
+./[executable]                                                    # Run executable
 
 # Git 
 
