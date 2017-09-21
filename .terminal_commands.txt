@@ -1,37 +1,45 @@
 # .always_forget.txt
 #
-# Personal UNIX Cheat Sheet
+# Personal UNIX/Terminal Command cheat sheet
 #
-# Nick Weber <webenic@umich.edu>
+# Nick Weber <webenic3@gmail.com>
 
-# C++ Tools
+
+# ------------------------ C++ Tools ---------------------------------------------------------------------------------- #
 g++ [file to compile] -o [executable]                             # Compile C++ program (-o: write output to, gcc if C)
 ./[executable]                                                    # Run executable
 
-# Git 
 
-# Homebrew (OSX Package Manager)
+# --------------------------- Git ------------------------------------------------------------------------------------- #
+
+
+
+# -------------- Homebrew (OS X Package Manager ----------------------------------------------------------------------- #
 brew update                                                       # update package index
 brew upgrade                                                      # upgrade installed packages
 
-# AFS (Andrew File System)
+
+# ----------------- AFS (Andrew File System) -------------------------------------------------------------------------- #
 kdestroy                                                          # delete Kerberos ticket
 unlog                                                             # delete AFS tokens
 kinit webenic                                                     # get Kerberos ticket for umic
 cd /afs/webenic/user/w/e/webenic                                  # change directory to UM desktop (note the forward slash)
 
-# SSH (Secure SHell)
+
+# -------------------- SSH (Secure SHell) ----------------------------------------------------------------------------- #
 ssh webenic@login-course.engin.umich.edu                          # Log onto UM desktop over network
 
-# SCP (Secure Copy Protocol)
+
+# ---------------- SCP (Secure Copy Protocol) ------------------------------------------------------------------------- #
 scp -r [local directory/source] [destination directory]           # Transfer files between sites over the internet
     - For UM file transfer: scp [local path] webenic@login.engin.umich.edu:/home/webenic/[destination path]
 
-# Web Utilities
+
+# -------------------- Web Utilities ---------------------------------------------------------------------------------- #
 openssl s_client -connect [website]:443                           # View client/server certificate data
 
-#############################################################################################################
-# Command Line Fun
+
+# ------------------- Command Line Fun -------------------------------------------------------------------------------- #
 telnet towel.blinkenlights.nl                                               # Ascii Star Wars ('C-]' to quit)
 [text] | lolcat                                                             # rainbow text
 cmatrix                                                                     # Matrix-style ascii trickle-down
