@@ -23,6 +23,9 @@ ssh webenic@login-course.engin.umich.edu                          # Log onto UM 
 scp -r [local directory/source] [destination directory]           # Transfer files between sites over the internet
   - For UM file transfer: scp [local path] webenic@login.engin.umich.edu:/home/webenic/[destination path]
 
+# Web Commands
+openssl s_client -connect [website]:443                           # View client/server certificate data
+
 # Command Line Fun
 asciiquarium                                                      # fish tank full of ascii fish
 curl http://wttr.in/[location]                                    # ascii weather 
