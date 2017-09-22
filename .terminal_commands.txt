@@ -4,6 +4,8 @@
 #
 # Nick Weber <webenic3@gmail.com>
 
+#--------------------- Keyboard Shortcuts ----------------------------------------------------------------------------- #
+CMD+ALT+L                                                         # clear terminal buffer
 
 # ------------------------ C++ Tools ---------------------------------------------------------------------------------- #
 g++ [file to compile] -o [executable]                             # Compile C++ program (-o: write output to, gcc if C)
