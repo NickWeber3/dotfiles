@@ -59,8 +59,10 @@ toilet [string]                                                             # as
 banner [string]                                                             # horizontal banner of string 
 rig                                                                         # generate a fake identity
 fortune                                                                     # print a random fortune
-cowthink [string]                                                           # ascii art of cow w/ thought bubble
 cowsay [string]                                                             # ascii art of cow w/ speech bubble
+cowsay -l                                                                   # list cowsay characters
+cowsay -f [character]                                                       # cowsay with different animals/characters
+cowthink [string]                                                           # ascii art of cow w/ thought bubble
 curl -s http://artscene.textfiles.com/vt100/movglobe.vt | pv -q -L 9600     # ascii spinning globe
 asciiview [image] -driver curses                                            # view ascii-version of an image
 aafire                                                                      # make a bonfire
