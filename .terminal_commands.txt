@@ -23,7 +23,7 @@ g++ [file to compile] -o [executable]       # compile C++ program (-o: write out
     
 
 
-# -------------- Homebrew (OS X Package Manager ----------------------------------------------------------------------- #
+# -------------- Homebrew (OS X Package Manager) ----------------------------------------------------------------------- #
 brew update                                 # update package index
 brew upgrade                                # upgrade installed packages
 
