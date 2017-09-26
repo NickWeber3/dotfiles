@@ -32,6 +32,9 @@ brew upgrade                                # upgrade installed packages
 CMD+ALT+L                                   # clear terminal buffer
 CTRL+U                                      # delete current line
 
+# --------------------------- Git ------------------------------------------------------------------------------------- #
+open [file]                                 # open a file, same as double-clicking
+
 # ------------------ Processes and Threads ---------------------------------------------------------------------------- #
 ps -ax                                      # see all running processes
 ps -axM                                     # see all running processes and their threads
