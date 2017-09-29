@@ -8,8 +8,7 @@ In this project, I was able to do this quite effectively:
             
             2) Read in data one line at a time, each line will contain one of three commands
             
-            3) Change the data in the database according to the command. If the command is 
-              "Add", first do a Luhn 10 check
+            3) Change the data in the database according to the command. If the command is "Add", first do a Luhn 10 check
               
             4) After all data is read, display account summaries to STDOUT
             
