@@ -52,6 +52,7 @@ scp -r [local directory/source] [destination directory]           # Transfer fil
 
 # -------------------- Web Utilities ---------------------------------------------------------------------------------- #
 openssl s_client -connect [website]:443                           # View client/server certificate data
+http [website]                                                    # Pretty print website JSON data
 
 
 # ------------------- Command Line Fun -------------------------------------------------------------------------------- #
