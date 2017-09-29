@@ -3,6 +3,7 @@ Whenever I start building a program, one of my primary objectives is to make my 
 
 In this project, I was able to do this quite effectively:
   -	I originally broke the program down into 4 parts: 
+  
             1) Create input stream to the input file
             2) Read in data one line at a time, each line will contain one of three commands
             3) Change the data in the database according to the command. If the command is 
