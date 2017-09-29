@@ -1,4 +1,5 @@
 Overview of Design Decisions
+
 Whenever I start building a program, one of my primary objectives is to make my code as abstract as I can. In other words, I want to manage the complexity of the program, usually by seperating the individual components of the project into seperate functions, resulting in a relatively short main() function that is easy to interpret. This makes programs much easier for others to read on first and repeat viewings, and much more comprehensive. 
 
 In this project, I was able to do this quite effectively:
@@ -27,13 +28,17 @@ In addition to these, some smaller design decisions I implemented include:
 
 
 
+
 Why I picked C++
+
 Although I am equally familiar with both C++ and Python, I almost always choose C++ when I have the choice between the two. The thing I enjoy the most about C++, strangely, is that your code must be very explicit in order for what you want to occur to actually occur. For example, a for-loop in C++, i.e. for (int i =0; i < 100; ++i), carries much more information than a Python for-loop, i.e. for item in items. In the C++ version, I can actually see all the inner-workings of the loop, what is being incremented, how many times it is being incremented, and how much it is being incremented by (or decremented by). When I use the Python version, it almost seems like magic, and I have no idea how the for-loop is actually doing what it is doing. I do see why lots of programmers prefer Python's simplicity to C++'s drawn out, convoluted syntax, but I enjoy having a deeper conceptual understanding of how my code is actually working on the page in front of me. That is why whenever I have the choice, I choose C++.
 
 
 
 
+
 Running, compiling, testing
+
 Some of my code, specifically the print_summary() function, uses a C++11's range based for-loop. I did this to make using iterators much cleaner and easier, but it requires the C++11 flag to be present during compilation. As a result, compile theprogram with this command in the command line or terminal:
 
     g++ -std=c++11 credit_card_processing.cpp -o processor
