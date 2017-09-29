@@ -5,10 +5,14 @@ In this project, I was able to do this quite effectively:
   -	I originally broke the program down into 4 parts: 
   
             1) Create input stream to the input file
+            
             2) Read in data one line at a time, each line will contain one of three commands
+            
             3) Change the data in the database according to the command. If the command is 
               "Add", first do a Luhn 10 check
+              
             4) After all data is read, display account summaries to STDOUT
+            
   -	I noted that although the method for reading in the file may be different (command line argument or STDIN), the method for processing the data from the file would always be the same. As a result, I created the update_accounts() function to process the file data. update_accounts() takes an input stream as an input argument, and abstractly reads in the data from whatever stream is passed into the function. This way, the file can be read from any input stream and the data can still be processed using the same lines of code.
   -	I wrote a seperate function to run a Luhn 10 validation on each card number added to the database. I wrote my own based off of the research I did on the algorithm because C++ does not have a library containing it. The function, valid_luhn_10(), is only called in update_accounts(), and only when the "Add" command is processed.
   -	 I also wrote a seperate function to print the account summaries at the end of the program, print_summary(), in order to conserve space in the main() function. Like the objective above states, this makes reading through the code much easier to someone unfamiliar with it.
