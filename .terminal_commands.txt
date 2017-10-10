@@ -53,6 +53,7 @@ scp -r [local directory/source] [destination directory]           # Transfer fil
 
 
 # -------------------- Web Utilities ---------------------------------------------------------------------------------- #
+python3 -m http.server 8000                                       # start a file server at ./ on port 8000 (localhost:8000)
 curl [website]                                                    # displays URL HTML data to terminal
 openssl s_client -connect [website]:443                           # View client/server certificate data
 http [website]                                                    # Pretty print website JSON data
