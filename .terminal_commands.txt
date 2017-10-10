@@ -55,7 +55,9 @@ scp -r [local directory/source] [destination directory]           # transfer fil
     
     
 # ------------------- Text Processing --------------------------------------------------------------------------------- #
-less [file]                            # terminal pager, view (but not change) file
+more [file]                            # most basic terminal pager       <----| 
+less [file]                            # better terminal pager           <----+----- view (but not change) file
+most [file]                            # even better terminal pager      <----|
 wc                                     # line, word, byte counts
 
 
@@ -85,6 +87,6 @@ cowthink [string]                                                           # as
 curl -s http://artscene.textfiles.com/vt100/movglobe.vt | pv -q -L 9600     # ascii spinning globe
 asciiview [image] -driver curses                                            # view ascii-version of an image
 aafire                                                                      # make a bonfire
-ruby -e 'C=`stty size`.scan(/\d+/)[1].to_i;S=["2743".to_i(16)].pack("U*     # make it snow -|
-");a ={};puts "\033[2J";loop{a[rand(C)]=0;a.each{|x,o|;a[x]+=1;print "\0    <---------------|
-33[#{o}; #{x}H \033[#{a[x]};#{x}H#{S} \033[0;0H"};$stdout.flush;sleep 0.1}' <---------------|   
+ruby -e 'C=`stty size`.scan(/\d+/)[1].to_i;S=["2743".to_i(16)].pack("U*     <----|
+");a ={};puts "\033[2J";loop{a[rand(C)]=0;a.each{|x,o|;a[x]+=1;print "\0    <----+---- make it snow
+33[#{o}; #{x}H \033[#{a[x]};#{x}H#{S} \033[0;0H"};$stdout.flush;sleep 0.1}' <----|   
