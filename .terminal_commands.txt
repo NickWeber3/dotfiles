@@ -36,6 +36,7 @@ CTRL+U                                      # delete current line
 
 # --------------------------- OSX ------------------------------------------------------------------------------------- #
 open [file]                                 # open a file, same as double-clicking
+rm ~/.Trash/*                               # empty trash
 
 # ------------------ Processes and Threads ---------------------------------------------------------------------------- #
 ps -ax                                      # see all running processes
@@ -44,11 +45,11 @@ top                                         # monitor processes in real time
 top -H                                      # monitor threads in real time
 
 # -------------------- SSH (Secure SHell) ----------------------------------------------------------------------------- #
-ssh webenic@login-course.engin.umich.edu                          # Log onto UM desktop over network
+ssh webenic@login-course.engin.umich.edu                          # log onto UM desktop over network
 
 
 # ---------------- SCP (Secure Copy Protocol) ------------------------------------------------------------------------- #
-scp -r [local directory/source] [destination directory]           # Transfer files between sites over the internet
+scp -r [local directory/source] [destination directory]           # transfer files between sites over the internet
     - For UM file transfer: scp -r [local path] webenic@login.engin.umich.edu:/home/webenic/[destination path]
 
 
@@ -60,7 +61,7 @@ http [website]                                                    # Pretty print
 
 
 # ------------------- Command Line Fun -------------------------------------------------------------------------------- #
-telnet towel.blinkenlights.nl                                               # Ascii Star Wars ('C-]' to quit)
+telnet towel.blinkenlights.nl                                               # ascii Star Wars ('C-]' to quit)
 [text] | lolcat                                                             # rainbow text
 cmatrix                                                                     # Matrix-style ascii trickle-down
 asciiquarium                                                                # fish tank full of ascii fish
