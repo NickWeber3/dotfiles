@@ -43,6 +43,7 @@ ps -ax                                      # see all running processes
 ps -axM                                     # see all running processes and their threads
 top                                         # monitor processes in real time
 top -H                                      # monitor threads in real time
+htop                                        # fancy performance monitor
 
 # -------------------- SSH (Secure SHell) ----------------------------------------------------------------------------- #
 ssh webenic@login-course.engin.umich.edu                          # log onto UM desktop over network
