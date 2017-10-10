@@ -55,6 +55,7 @@ scp -r [local directory/source] [destination directory]           # transfer fil
     
     
 # ------------------- Text Processing --------------------------------------------------------------------------------- #
+less [file]                            # terminal pager, view (but not change) file
 wc                                     # line, word, byte counts
 
 
