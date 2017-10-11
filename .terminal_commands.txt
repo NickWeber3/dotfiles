@@ -26,6 +26,8 @@ touch [filename]                            # create new file in current directo
     4.) git commit -m ["message"]                   # commit all files
     5.) git push -u origin master                   # push to remote repo ('-u' ---> add upstream reference)
     
+rm -rf .git                                         # delete current git repo
+    
 # -------------- Homebrew (OS X Package Manager) ----------------------------------------------------------------------- #
 brew update                                 # update package index
 brew upgrade                                # upgrade installed packages
