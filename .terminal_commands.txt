@@ -13,8 +13,12 @@ cd /afs/webenic/user/w/e/webenic                                  # change direc
 
 
 # ------------------------ C++ Tools ---------------------------------------------------------------------------------- #
-g++ [file to compile] -o [executable]       # compile C++ program (-o: write output to, gcc if C)
+g++ [file to compile] -o [executable]       # compile C++ program (gcc if C)
 ./[executable]                              # run executable
+
+
+# ----------------------- Compression ----------------------------------------------------------------------------------- #
+tar -czvf [tarball name] [files]            # compress files in tarball
 
 
 # -------------------- Files and Folders ------------------------------------------------------------------------------ #
@@ -79,8 +83,8 @@ wc                                     # line, word, byte counts
 # -------------------- Web Utilities ---------------------------------------------------------------------------------- #
 python3 -m http.server 8000                  # start a file server at ./ on port 8000 (localhost:8000)
 curl [URL]                                   # displays URL HTML data to terminal
-openssl s_client -connect [URL]:443          # View client/server certificate data
-http [URL]                                   # Pretty print website JSON data
+openssl s_client -connect [URL]:443          # view client/server certificate data
+http [URL]                                   # pretty print website JSON data
 youtube-dl [URL]                             # download a youtube video
 
 
