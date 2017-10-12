@@ -43,6 +43,7 @@ CTRL+U                                      # delete current line
 
 
 # -------------------- Network Utilities ------------------------------------------------------------------------------ #
+host [URL]                                  # DNS lookup
 traceroute [URL]                            # packet's route to destination 
 
 
