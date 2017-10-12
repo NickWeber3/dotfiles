@@ -11,12 +11,15 @@ unlog                                                             # delete AFS t
 kinit webenic                                                     # get Kerberos ticket for umic
 cd /afs/webenic/user/w/e/webenic                                  # change directory to UM desktop (note the forward slash)
 
+
 # ------------------------ C++ Tools ---------------------------------------------------------------------------------- #
 g++ [file to compile] -o [executable]       # compile C++ program (-o: write output to, gcc if C)
 ./[executable]                              # run executable
 
+
 # -------------------- Files and Folders ------------------------------------------------------------------------------ #
 touch [filename]                            # create new file in current directory
+
 
 # --------------------------- Git ------------------------------------------------------------------------------------- #
 ----> Connect to a existing project                 
@@ -28,17 +31,25 @@ touch [filename]                            # create new file in current directo
     
 rm -rf .git                                         # delete current git repo
     
+    
 # -------------- Homebrew (OS X Package Manager) ----------------------------------------------------------------------- #
 brew update                                 # update package index
 brew upgrade                                # upgrade installed packages
+
 
 #--------------------- Keyboard Shortcuts ----------------------------------------------------------------------------- #
 CMD+ALT+L                                   # clear terminal buffer
 CTRL+U                                      # delete current line
 
+
+# -------------------- Network Utilities ------------------------------------------------------------------------------ #
+traceroute [URL]                            # packet's route to destination 
+
+
 # --------------------------- OSX ------------------------------------------------------------------------------------- #
 open [file]                                 # open a file, same as double-clicking
 rm ~/.Trash/*                               # empty trash
+
 
 # ------------------ Processes and Threads ---------------------------------------------------------------------------- #
 ps -ax                                      # see all running processes
@@ -46,6 +57,7 @@ ps -axM                                     # see all running processes and thei
 top                                         # monitor processes in real time
 top -H                                      # monitor threads in real time
 htop                                        # fancy performance monitor
+
 
 # -------------------- SSH (Secure SHell) ----------------------------------------------------------------------------- #
 ssh webenic@login-course.engin.umich.edu                          # log onto UM desktop over network
@@ -65,10 +77,10 @@ wc                                     # line, word, byte counts
 
 # -------------------- Web Utilities ---------------------------------------------------------------------------------- #
 python3 -m http.server 8000                  # start a file server at ./ on port 8000 (localhost:8000)
-curl [website]                               # displays URL HTML data to terminal
-openssl s_client -connect [website]:443      # View client/server certificate data
-http [website]                               # Pretty print website JSON data
-youtube-dl [url]                             # download a youtube video
+curl [URL]                                   # displays URL HTML data to terminal
+openssl s_client -connect [URL]:443          # View client/server certificate data
+http [URL]                                   # Pretty print website JSON data
+youtube-dl [URL]                             # download a youtube video
 
 
 # ------------------- Command Line Fun -------------------------------------------------------------------------------- #
