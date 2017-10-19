@@ -69,7 +69,7 @@ htop                                        # fancy performance monitor
 ssh webenic@login-course.engin.umich.edu                          # log onto UM desktop over network
 
 
-# --------------- SCP (Secure Copy Protocol) ------------------------------------------------------------------------- #
+# --------------- SCP (Secure Copy Protocol) -------------------------------------------------------------------------- #
 scp -r [local directory/source] [destination directory]           # transfer files between sites over the internet
     - For UM file transfer: scp -r [local path] webenic@login.engin.umich.edu:/home/webenic/[destination path]
     
