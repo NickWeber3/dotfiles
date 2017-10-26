@@ -42,8 +42,8 @@ brew upgrade                                # upgrade installed packages
 
 
 #--------------------- Keyboard Shortcuts ----------------------------------------------------------------------------- #
-CMD+ALT+L                                   # clear terminal buffer
-CTRL+U                                      # delete current line
+CMD+ALT+L           # clear terminal buffer
+CTRL+U              # delete current line
 
 
 # -------------------- Network Utilities ------------------------------------------------------------------------------ #
