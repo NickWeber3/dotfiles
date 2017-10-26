@@ -42,7 +42,7 @@ brew upgrade                                # upgrade installed packages
 
 
 #--------------------- Keyboard Shortcuts ----------------------------------------------------------------------------- #
-CMD+ALT+L           # clear terminal buffer
+CMD+K               # clear entire terminal buffer
 CTRL+U              # delete current line
 
 
