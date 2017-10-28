@@ -30,7 +30,7 @@ touch [filename]                            # create new file in current directo
     1.) git init                                    # initialize empty repo
     2.) git remote add origin [remote repo URL]     # add URL to remote repo 
     3.) git add .                                   # stage all files   
-    4.) git commit -m ["message"]                   # commit all files
+    4.) git commit -m "[commit message]"            # commit all files
     5.) git push -u origin master                   # push to remote repo ('-u' ---> add upstream reference)
     
 rm -rf .git                                         # delete current git repo
