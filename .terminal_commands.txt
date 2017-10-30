@@ -6,10 +6,10 @@
 
 
 # ----------------- AFS (Andrew File System) -------------------------------------------------------------------------- #
-kdestroy                                                          # delete Kerberos ticket
-unlog                                                             # delete AFS tokens
-kinit webenic                                                     # get Kerberos ticket for umic
-cd /afs/webenic/user/w/e/webenic                                  # change directory to UM desktop
+kdestroy                                    # delete Kerberos ticket
+unlog                                       # delete AFS tokens
+kinit webenic                               # get Kerberos ticket for umic
+cd /afs/webenic/user/w/e/webenic            # change directory to UM desktop
 
 
 # ------------------------ C++ Tools ---------------------------------------------------------------------------------- #
