@@ -37,8 +37,8 @@ rm -rf .git                                         # delete current git repo
     
     
 # -------------- Homebrew (OS X Package Manager) ----------------------------------------------------------------------- #
-brew update                                 # update package index
-brew upgrade                                # upgrade installed packages
+brew update         # update package index
+brew upgrade        # upgrade installed packages
 
 
 #--------------------- Keyboard Shortcuts ----------------------------------------------------------------------------- #
