@@ -17,7 +17,7 @@ g++ [file to compile] -o [executable]       # compile C++ program (gcc if C)
 ./[executable]                              # run executable
 
 
-# ----------------------- Compression ----------------------------------------------------------------------------------- #
+# ----------------------- Compression --------------------------------------------------------------------------------- #
 tar -czvf [tarball name] [files]            # compress files in tarball
 
 
