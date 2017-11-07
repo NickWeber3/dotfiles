@@ -49,7 +49,7 @@ CTRL+U              # delete current line
 # -------------------- Network Utilities ------------------------------------------------------------------------------ #
 ping [URL]                                  # check the response of a domain or IP address
 host [URL]                                  # DNS lookup
-nslookup [URL]
+nslookup [URL]                              # DNS lookup
 traceroute [URL]                            # packet's route to destination
 
 
