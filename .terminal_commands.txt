@@ -52,7 +52,7 @@ host [URL]                                  # DNS lookup
 nslookup [URL]                              # DNS lookup
 dig [URL]                                   # DNS lookup
 dig +short [URL]                            # DNS lookup, to the point
-dig -x [IP]                                # reverse DNS lookup (IP --->
+dig -x [IP]                                 # reverse DNS lookup (IP ---> URL)
 traceroute [URL]                            # packet's route to destination
 
 
