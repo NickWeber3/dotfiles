@@ -51,6 +51,7 @@ ping [URL]                                  # check the response of a domain or 
 host [URL]                                  # DNS lookup
 nslookup [URL]                              # DNS lookup
 dig [URL]                                   # DNS lookup
+dig +short [URL]                            # DNS lookup, to the point
 traceroute [URL]                            # packet's route to destination
 
 
