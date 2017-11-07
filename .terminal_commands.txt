@@ -91,7 +91,7 @@ http [URL]                                   # pretty print website JSON data
 youtube-dl [URL]                             # download a youtube video
 
 
-# ------------------- Command Line Fun -------------------------------------------------------------------------------- #
+# ---------------------- Neat Stuff ----------------------------------------------------------------------------------- #
 telnet towel.blinkenlights.nl                                               # ascii Star Wars ('C-]' to quit)
 [text] | lolcat                                                             # rainbow text
 cmatrix                                                                     # Matrix-style ascii trickle-down
