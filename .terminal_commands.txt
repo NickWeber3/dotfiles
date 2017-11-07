@@ -36,7 +36,7 @@ touch [filename]                            # create new file in current directo
 rm -rf .git                                         # delete current git repo
     
     
-# -------------- Homebrew (OS X Package Manager) ---------------------------------------------------------------------- #
+# -------------- Homebrew (OSX Package Manager) ---------------------------------------------------------------------- #
 brew update         # update package index
 brew upgrade        # upgrade installed packages
 
