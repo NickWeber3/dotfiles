@@ -12,6 +12,7 @@ CMD + Z               # undo
 CMD + SHIFT + Z       # redo
 CMD + R               # refresh
 CMD + SHIFT + R       # hard refresh
+CMD + T               # new tab in browser, terminal, etc.
 
 
 # -------- Symbols ------------------------------------------------#
