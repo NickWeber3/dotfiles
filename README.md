@@ -1,3 +1,3 @@
-Nick Weber's dotfiles
+Nick's dotfiles
 
 
