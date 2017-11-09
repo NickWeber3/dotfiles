@@ -5,5 +5,14 @@
 # ------------------------------------------ Nick Weber <webenic3@gmail.com> ------------------------------------------ # 
 
 
+# -------- Actions ------------------------------------------------#
+CMD + C               # copy
+CMD + V               # paste
+CMD + Z               # undo
+CMD + SHIFT + Z       # redo
+CMD + R               # refresh
+CMD + SHIFT + R       # hard refresh
+
+
 # -------- Symbols ------------------------------------------------#
-OPTION + 8          # bullet point (•)
+OPTION + 8            # bullet point (•)
