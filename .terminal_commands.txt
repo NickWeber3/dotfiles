@@ -2,7 +2,12 @@
 #                                                                                                                       #
 # ------------------------------------ Personal UNIX/Terminal Command Cheat Sheet ------------------------------------- #
 #                                                                                                                       #
-# ------------------------------------------ Nick Weber <webenic3@gmail.com> ------------------------------------------ #   
+# ------------------------------------------ Nick Weber <webenic3@gmail.com> ------------------------------------------ #
+
+### TO DISPLAY/EDIT THIS FILE LOCALLY ###
+    ----> less ~/dotfiles/.terminal_commands.txt
+    ----> vi ~/dotfiles/.terminal_commands.txt    <-- (don't forget to add/commit/push)
+    
 
 
 # ----------------- AFS (Andrew File System) -------------------------------------------------------------------------- #
