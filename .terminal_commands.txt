@@ -4,7 +4,11 @@
 #                                                                                                                       #
 # ------------------------------------------ Nick Weber <webenic3@gmail.com> ------------------------------------------ #
 
-### TO DISPLAY/EDIT THIS FILE LOCALLY ###
+# ---- TO SEARCH THIS FILE LOCALLY ---- #
+    ----> grep [text pattern] ~/dotfiles/.terminal_commands.txt
+
+
+# ---- TO DISPLAY/EDIT THIS FILE LOCALLY ---- #
     ----> less ~/dotfiles/.terminal_commands.txt
     ----> vi ~/dotfiles/.terminal_commands.txt    <-- (don't forget to add/commit/push)
     
