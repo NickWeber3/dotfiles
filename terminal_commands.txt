@@ -1,0 +1,116 @@
+# ---------------------------------------------- .terminal_commands.txt ----------------------------------------------- #
+#                                                                                                                       #
+# ------------------------------------ Personal UNIX/Terminal Command Cheat Sheet ------------------------------------- #
+#                                                                                                                       #
+# ------------------------------------------ Nick Weber <webenic3@gmail.com> ------------------------------------------ #   
+
+
+# ----------------- AFS (Andrew File System) -------------------------------------------------------------------------- #
+kdestroy                                    # delete Kerberos ticket
+unlog                                       # delete AFS tokens
+kinit webenic                               # get Kerberos ticket for umic
+cd /afs/webenic/user/w/e/webenic            # change directory to UM desktop
+
+
+# ------------------------ C++ Tools ---------------------------------------------------------------------------------- #
+g++ [file to compile] -o [executable]       # compile C++ program (gcc if C)
+./[executable]                              # run executable
+
+
+# ----------------------- Compression --------------------------------------------------------------------------------- #
+tar -czvf [tarball name] [files]            # compress files in tarball
+
+
+# -------------------- Files and Folders ------------------------------------------------------------------------------ #
+touch [filename]                            # create new file in current directory
+
+
+# --------------------------- Git ------------------------------------------------------------------------------------- #
+----> Connect to a existing project                 
+    1.) git init                                    # initialize empty repo
+    2.) git remote add origin [remote repo URL]     # add URL to remote repo 
+    3.) git add .                                   # stage all files   
+    4.) git commit -m "[commit message]"            # commit all files
+    5.) git push -u origin master                   # push to remote repo ('-u' ---> add upstream reference)
+    
+rm -rf .git                                         # delete current git repo
+    
+    
+# -------------- Homebrew (OSX Package Manager) ---------------------------------------------------------------------- #
+brew update         # update package index
+brew upgrade        # upgrade installed packages
+
+
+#--------------------- Keyboard Shortcuts ----------------------------------------------------------------------------- #
+CMD+K               # clear entire terminal buffer
+CTRL+U              # delete current line
+
+
+# -------------------- Network Utilities ------------------------------------------------------------------------------ #
+ping [URL]                                  # check the response of a domain or IP address
+host [URL]                                  # DNS lookup
+nslookup [URL]                              # DNS lookup
+dig [URL]                                   # DNS lookup
+dig +short [URL]                            # DNS lookup, to the point
+dig +short -x [IP]                          # reverse DNS lookup (IP ---> URL), to the point
+traceroute [URL]                            # packet's route to destination
+
+
+# --------------------------- OSX ------------------------------------------------------------------------------------- #
+open [file]                                 # open a file, same as double-clicking
+rm ~/.Trash/*                               # empty trash
+
+
+# ------------------ Processes and Threads ---------------------------------------------------------------------------- #
+ps -ax                                      # see all running processes
+ps -axM                                     # see all running processes and their threads
+top                                         # monitor processes in real time
+top -H                                      # monitor threads in real time
+htop                                        # fancy performance monitor
+
+
+# -------------------- SSH (Secure SHell) ----------------------------------------------------------------------------- #
+ssh webenic@login-course.engin.umich.edu                          # log onto UM desktop over network
+
+
+# --------------- SCP (Secure Copy Protocol) -------------------------------------------------------------------------- #
+scp -r [local directory/source] [destination directory]           # transfer files between sites over the internet
+    - For UM file transfer: scp -r [local path] webenic@login.engin.umich.edu:/home/webenic/[destination path]
+    
+    
+# ------------------- Text Processing --------------------------------------------------------------------------------- #
+more [file]                            # most basic terminal pager       <----| 
+less [file]                            # better terminal pager           <----+----- view (but not change) file
+most [file]                            # even better terminal pager      <----|
+wc                                     # line, word, byte counts
+
+
+# -------------------- Web Utilities ---------------------------------------------------------------------------------- #
+python3 -m http.server 8000                  # start a file server at ./ on port 8000 (localhost:8000)
+curl [URL]                                   # displays URL HTML data to terminal
+openssl s_client -connect [URL]:443          # view client/server certificate data
+http [URL]                                   # pretty print website JSON data
+youtube-dl [URL]                             # download a youtube video
+
+
+# ---------------------- Neat Stuff ----------------------------------------------------------------------------------- #
+telnet towel.blinkenlights.nl                                               # ascii Star Wars ('C-]' to quit)
+[text] | lolcat                                                             # rainbow text
+cmatrix                                                                     # Matrix-style ascii trickle-down
+asciiquarium                                                                # fish tank full of ascii fish
+curl http://wttr.in/[location]                                              # ascii weather 
+figlet [string]                                                             # bubble text of given string
+toilet [string]                                                             # ascii text of string
+banner [string]                                                             # horizontal banner of string 
+rig                                                                         # generate a fake identity
+fortune                                                                     # print a random fortune
+cowsay [string]                                                             # ascii art of cow w/ speech bubble
+cowsay -l                                                                   # list cowsay characters
+cowsay -f [character]                                                       # cowsay with different animals/characters
+cowthink [string]                                                           # ascii art of cow w/ thought bubble
+curl -s http://artscene.textfiles.com/vt100/movglobe.vt | pv -q -L 9600     # ascii spinning globe
+asciiview [image] -driver curses                                            # view ascii-version of an image
+aafire                                                                      # make a bonfire
+ruby -e 'C=`stty size`.scan(/\d+/)[1].to_i;S=["2743".to_i(16)].pack("U*     <----|
+");a ={};puts "\033[2J";loop{a[rand(C)]=0;a.each{|x,o|;a[x]+=1;print "\0    <----+---- make it snow
+33[#{o}; #{x}H \033[#{a[x]};#{x}H#{S} \033[0;0H"};$stdout.flush;sleep 0.1}' <----|   
