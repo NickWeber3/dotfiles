@@ -46,10 +46,10 @@ rm -rf .git                                         # delete current git repo
 
 
 #--------------------------- Grep ------------------------------------------------------------------------------------- #
-grep [text pattern] [files]             # search files for lines containing the text pattern
-grep [text pattern] -B[number]          # search for pattern + [number] lines before line
-grep [text pattern] -A[number]          # search for pattern + [number] lines after line
-grep [text pattern] -[number]           # search for pattern + [number] lines before and after line
+grep [text pattern] [files]                 # search files for lines containing the text pattern
+grep [text pattern] [files] -B[number]      # search for pattern + [number] lines before line
+grep [text pattern] [files] -A[number]      # search for pattern + [number] lines after line
+grep [text pattern] [files] -[number]       # search for pattern + [number] lines before and after line
     
     
 # -------------- Homebrew (OSX Package Manager) ---------------------------------------------------------------------- #
