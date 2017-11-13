@@ -36,16 +36,17 @@ cd                              # change cwd to home directory
 
 
 # -------------------- Files and Folders ------------------------------------------------------------------------------ #
-tree                            # list files, directories, and subdirectories as ASCII tree
-touch [filename]                # create new file in current directory
-ls -a                           # list files, including hidden files
-ls -A                           # list files, including hidden files, minus . and ..
-ls -l                           # list files, include time, date, read/write, etc.
-ls -t                           # list files, sorted by last time modified
-rm [files]                      # remove files
-rm -r [directory]               # remove directory and files
-rm -rf [directory]              # yes, remove directory and files, don't question me
-rmdir [directory]               # remove directory, which must be empty
+tree                                    # list files, directories, and subdirectories as ASCII tree
+tree --matchdirs -I 'venv3|*pycache*'   # ^^^, but ignore all Python virtual environment stuff (quite useful and clean)
+touch [filename]                        # create new file in current directory
+ls -a                                   # list files, including hidden files
+ls -A                                   # list files, including hidden files, minus . and ..
+ls -l                                   # list files, include time, date, read/write, etc.
+ls -t                                   # list files, sorted by last time modified
+rm [files]                              # remove files
+rm -r [directory]                       # remove directory and files
+rm -rf [directory]                      # yes, remove directory and files, don't question me
+rmdir [directory]                       # remove directory, which must be empty
 
 
 # --------------------------- Git ------------------------------------------------------------------------------------- #
