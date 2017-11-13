@@ -112,8 +112,9 @@ scp -r [local directory/source] [destination directory]           # transfer fil
 more [file]                            # most basic terminal pager       <----| 
 less [file]                            # better terminal pager           <----+----- view (but not change) file
 most [file]                            # even better terminal pager      <----|
-cat [files]                            # print files to terminal
+cat [files]                            # output file contents to terminal
 wc                                     # line, word, byte counts
+sort [file]                            # output file contents, with lines sorted alphabetically
 
 
 # -------------------- Web Utilities ---------------------------------------------------------------------------------- #
