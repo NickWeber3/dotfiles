@@ -77,6 +77,10 @@ CMD+K               # clear entire terminal buffer
 CTRL+U              # delete current line
 
 
+# ------------------------ Machines ----------------------------------------------------------------------------------- #
+
+
+
 # -------------------- Network Utilities ------------------------------------------------------------------------------ #
 ping [URL]                                  # check the response of a domain or IP address
 host [URL]                                  # DNS lookup
