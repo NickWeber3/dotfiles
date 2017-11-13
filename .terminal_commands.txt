@@ -37,6 +37,9 @@ ls -a                           # list files, including hidden files
 ls -A                           # list files, including hidden files, minus . and ..
 ls -l                           # list files, include time, date, read/write, etc.
 ls -t                           # list files, sorted by last time modified
+rm [files]                      # remove files
+rm -r [directory]               # remove directory and files
+rm -rf [directory]              # yes, remove directory and files, don't question me
 
 
 # --------------------------- Git ------------------------------------------------------------------------------------- #
