@@ -80,6 +80,7 @@ CTRL+U              # delete current line
 # ------------------------ Machines ----------------------------------------------------------------------------------- #
 hostname            # name of this computer
 uname               # OS name
+uname -a            # OS name, with information on the OS, compiler, etc.
 
 
 # -------------------- Network Utilities ------------------------------------------------------------------------------ #
