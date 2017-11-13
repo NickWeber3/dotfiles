@@ -31,7 +31,8 @@ tar -czvf [tarball name] [files]            # compress files in tarball
 
 
 # -------------------- Files and Folders ------------------------------------------------------------------------------ #
-touch [filename]                            # create new file in current directory
+touch [filename]                # create new file in current directory
+ls -a                           # list files, including hidden files
 
 
 # --------------------------- Git ------------------------------------------------------------------------------------- #
