@@ -34,7 +34,8 @@ tar -czvf [tarball name] [files]            # compress files in tarball
 touch [filename]                # create new file in current directory
 ls -a                           # list files, including hidden files
 ls -A                           # list files, including hidden files, minus . and ..
-ls -t                           # list according to last time modified
+ls -l                           # list files, include time, date, read/write, etc.
+ls -t                           # list files, sorted by last time modified
 
 
 # --------------------------- Git ------------------------------------------------------------------------------------- #
