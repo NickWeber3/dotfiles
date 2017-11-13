@@ -113,6 +113,7 @@ more [file]                            # most basic terminal pager 
 less [file]                            # better terminal pager           <----+----- view (but not change) file
 most [file]                            # even better terminal pager      <----|
 cat [files]                            # output file contents to terminal
+cat [files] | uniq                     # output file contents to terminal, but no repeated lines
 wc                                     # line, word, byte counts
 sort [file]                            # output file contents, with lines sorted alphabetically
 
