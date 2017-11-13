@@ -31,6 +31,8 @@ tar -czvf [tarball name] [files]            # compress files in tarball
 
 
 # -------------------- Files and Folders ------------------------------------------------------------------------------ #
+cd ..                           # change cwd to parent directory
+cd                              # change cwd to home directory
 tree                            # list files, directories, and subdirectories as ASCII tree
 touch [filename]                # create new file in current directory
 ls -a                           # list files, including hidden files
