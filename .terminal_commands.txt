@@ -73,8 +73,10 @@ brew upgrade        # upgrade installed packages
 
 
 #--------------------- Keyboard Shortcuts ----------------------------------------------------------------------------- #
+CTRL+C              # kill running operation
 CMD+K               # clear entire terminal buffer
 CTRL+U              # delete current line
+
 
 
 # ------------------------ Machines ----------------------------------------------------------------------------------- #
