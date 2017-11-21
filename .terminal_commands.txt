@@ -74,6 +74,7 @@ brew upgrade        # upgrade installed packages
 
 #--------------------- Keyboard Shortcuts ----------------------------------------------------------------------------- #
 CMD+K               # clear entire terminal buffer
+CMD+T               # create new terminal tab
 CTRL+A              # jump to beginning of command
 CTRL+C              # kill running operation
 CTRL+E              # jump to end of command
