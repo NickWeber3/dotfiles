@@ -76,7 +76,8 @@ brew upgrade        # upgrade installed packages
 CMD+K               # clear entire terminal buffer
 CMD+T               # create new terminal tab
 CTRL+A              # jump to beginning of command
-CTRL+C              # kill running operation
+CTRL+C              # kill current task
+CTRL+Z              # pause current task
 CTRL+E              # jump to end of command
 CTRL+R              # search for previously-ran command
 CTRL+U              # delete current line
