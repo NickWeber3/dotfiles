@@ -33,6 +33,7 @@ tar -czvf [tarball name] [files]            # compress files in tarball
 # -------------------- Paths and Files -------------------------------------------------------------------------------- #
 cd ..                           # change cwd to parent directory
 cd                              # change cwd to home directory
+cp [filename] [new filename]    # copy file 
 
 
 # -------------------- Files and Folders ------------------------------------------------------------------------------ #
